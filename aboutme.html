@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>About Me</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="columnLeft">
+        <h2>Andrew Cottrell-D'Esposito</h2>
+        <img class="avatar" src="assets/avatar_cropped.png" />
+      </div>
+      <div class="columnRight">
+        <h2>About Me</h2>
+        <button onclick="collapseDivs(); toggleDiv('bio')">My Bio</button>
+        <button onclick="collapseDivs(); toggleDiv('work')">
+          Professional Experience
+        </button>
+        <button onclick="collapseDivs(); toggleDiv('skills')">
+          Technical Experience
+        </button>
+
+        <div class="infoblock" id="bio">
+          <h2>Bio</h2>
+          <p>
+            I was born and raised in a small town in northcentral Indiana. In my
+          early years we lived on a small hobby farm. We had a couple of cows,
+          some geese, chickens, and rabbits. My first car was a Dodge Dart
+          Swinger. I was on the dive team in high school. I love riding my
+          skateboard all over town. My first computer was a Commodore Vic-20. I
+          used that to learn basic when I was about 11-12. </p>
+          <p>
+          When I turned 18 I joined the Navy and became an electronics tech. I was stationed on the
+          USS Orion in Sardignia Italy. 
+        </p>
+        <p>
+
+            When I got out of the Navy I stayed
+          around in Norfolk, Virginia where I met my future and current spouse.
+          We moved from Virginia to Indiana where I started working as tech
+          support for a local internet provider. This is where I first started
+          learning html. After that we moved to San Diego, California where I
+          worked in the health insurance industry.  Then we moved to Indianapolis where I learned PHP and developed web applications using the LAMP stack.
+          </p>
+          <p>
+            I then got a job as a software developer at Regis Corporation in Minneapolis, Minnesota.  This is where I developed my
+            my coding skills with C# and Angular.
+          </p>
+        </div>
+        <div class="infoblock" id="work">
+          <h2>Professional Experience</h2>
+          <p>Regis Corporation, Minneapolis, MN</p>
+
+          <p>April 2008 – February 2023</p>
+          <p>
+            The beauty industry's global leader in beauty salons and cosmetology
+            education. The Company franchises, owns, or holds ownership
+            interests in more than 5,500 locations worldwide.
+          </p>
+          <p>Senior Software Engineer</p>
+          <p>
+            Design, develop, test, deploy, and maintain various software
+            applications using various technology stacks.
+          </p>
+          <ul>
+            <li>
+              Created a suite of intranet tools using Angular and .NET to make
+              managing and monitoring systems easier. As a result the team was
+              able to immediately identify when systems broke down and where the
+              issue was.
+            </li>
+
+            <li>
+              Created a bot using Dialogflow, AngularJS, and NodeJS with AWS
+              Lambda functions to allow easy access to data for our field
+              employees as well as our helpdesk. Call times for related issues
+              were reduced by 80%.
+            </li>
+
+            <li>
+              Developed a generic CRUD using Razor and .NET to allow users to
+              manage data without having to spin up a separate UI to manage each
+              project. This allowed us to create a new CRUD UI in a matter of
+              minutes instead of a week or two.
+            </li>
+
+            <li>
+              Worked with a team to create an ETL using SSIS to migrate salons
+              to our new POS.
+            </li>
+            <li>
+              Developed several web applications using Angular: employee
+              reviews, systems monitors, reports.
+            </li>
+            <li>
+              Developed and maintained several APIs using .NET to get data from
+              our DB2, MSSQL, and MySQL backend systems.
+            </li>
+
+            <li>
+              Worked as part of a team to develop and deploy a POS using a WAMP
+              stack.
+            </li>
+            <li>
+              Developed ETLs to clean bad data in our ERP using PHP with DB2.
+            </li>
+            <li>
+              Used Python to create AWS Cloudwatch dashboards and alarms and
+              deployed using code.
+            </li>
+            <li>
+              Collaborated with other development teams and departments to
+              define application requirements.
+            </li>
+          </ul>
+
+          <h4>Previous Experience</h4>
+          <ul>
+            <li>
+              Senior Developer at AMCLAD Web Solutions in Indianapolis, IN
+            </li>
+            <li>
+              Senior Programmer at Cohesive Network Group in Indianapolis, IN
+              
+            </li>
+            <li>
+                Provider Specialist at FPA Medical Management in San Diego, CA 
+            </li>
+            <li>
+                Junior Programmer at Hollicom Internet Services in Kokomo, IN 
+            </li>
+            <li>Electronics Technician in the U.S. Navy</li>
+          </ul>
+        </div>
+        <div class="infoblock" id="skills">
+          <h2>Technical Experience</h2>
+          <ul class="skillsList">
+            <li>.NET</li>
+            <li>C#</li>
+            <li>SQL Server</li>
+            <li>MVC</li>
+            <li>REST APIs</li>
+            <li>JSON</li>
+            <li>Angular</li>
+            <li>AWS Lambda functions(C#/Python/NodeJS)</li>
+            <li>AWS Cloudwatch dashboards</li>
+            <li>AWS Cloudwatch alarms and alerts</li>
+            <li>Javascript</li>
+            <li>NodeJS</li>
+            <li>Python</li>
+            <li>Azure AD SSO</li>
+            <li>DB2</li>
+            <li>MongoDB</li>
+            <li>Microsoft Visual Studio</li>
+            <li>CI/CD</li>
+            <li>Azure/DevOps</li>
+            <li>Xamarin</li>
+            <li>Swift</li>
+            <li>SSIS</li>
+            <li>SSRS</li>
+            <li>PHP (LAMP/WAMP)</li>
+            <li>Powershell</li>
+            <li>AngularJS</li>
+            <li>MySQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Azure AD</li>
+            <li>Visual Studio Code</li>
+            <li>Git</li>
+            <li>SQL Server Management Studio</li>
+            <li>Amazon Web Services</li>
+            <li>Agile methodology</li>
+            <li>Technical Support</li>
+            <li>Troubleshooting</li>
+            <li>Debugging Software</li>
+            <li>Full Stack Development</li>
+            <li>Problem Solving Skills</li>
+            <li>Microsoft Office Suite</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function collapseDivs() {
+        var classes = document.getElementsByClassName("infoblock");
+        for (var i = 0; i < classes.length; i++) {
+          classes[i].style.display = "none";
+        }
+      }
+
+      function toggleDiv(divId) {
+        var div = document.getElementById(divId);
+        if (div.style.display === "none") {
+          div.style.display = "block";
+        } else {
+          div.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

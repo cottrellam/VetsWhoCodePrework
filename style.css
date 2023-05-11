@@ -1,0 +1,62 @@
+/* Color scheme
+#00887a dark gray
+#ffccbc peachy
+#ffffff white
+#dce3fc light blue I think
+#77a6f7 blue or purpleish
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #77a6f7;
+}
+
+.avatar {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.infoblock {
+    width: 80%;
+    background-color:#dce3fc;
+    padding: 20px;
+    color: #00887a;
+    display: none;
+}
+
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .columnLeft {
+    text-align: center;
+    align-items: center;
+    flex: 40%;
+  }  
+  .columnRight {
+    flex: 60%;
+  }
+
+  .skillsList {
+    list-style-type: disc;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    list-style-position: inside;//this is important addition
+  }
+  button {
+    font-size: medium;
+    color: #00887a;
+    border-color: #77a6f7;
+    border-radius: 4px;
+    padding: 4px
+  }
